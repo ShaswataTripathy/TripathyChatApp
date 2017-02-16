@@ -1,0 +1,56 @@
+﻿.wrapper {
+    margin-top: 10px;
+    max-width: 1200px;
+    
+}
+
+.chat_main {
+    border-left: 1px solid #d0d0d0;
+    border-right: 1px solid #d0d0d0;
+    border-bottom: 1px solid #d0d0d0;
+    border-top: 0;
+    height: 300px;
+    margin-bottom: 10px;
+    padding: 10px;
+
+    overflow-y: auto;
+
+}
+
+.user_list {
+    padding: 0;
+    margin: 0;
+}
+
+.user_list li {
+    display: block;
+    padding: 5px 0;
+    border-bottom: 1px solid #d0d0d0;
+
+}
+
+.user_list li:hover {
+    background: #d0d0d0;
+    color: #fff;
+    cursor: pointer;
+}
+
+li.chinhtoi {
+    background: #fbeeee;
+}
+
+li.new a {
+    position: relative;
+    padding-right: 30px;
+}
+
+li.new a:before {
+    content:  "*";
+    color: green ;
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+    display: block;
+}
+
+
