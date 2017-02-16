@@ -36,7 +36,7 @@
 }
 
 li.chinhtoi {
-    background: #fbeeee;
+    background: #97A0EC;
 }
 
 li.new a {
@@ -46,10 +46,10 @@ li.new a {
 
 li.new a:before {
     content:  "*";
-    color: green ;
+    color: #ff0000 ;
     position: absolute;
     right: 0;
-    margin-right: 10px;
+    margin-right: 5px;
     display: block;
 }
 

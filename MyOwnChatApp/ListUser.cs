@@ -23,5 +23,12 @@ namespace MyOwnChatApp
             list.Add(username);
             return true;
         }
+
+        public static void ClearList()
+        {
+            list.Clear();
+
+        }
+
     }
 }
