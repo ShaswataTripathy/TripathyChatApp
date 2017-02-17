@@ -12,7 +12,7 @@ namespace MyOwnChatApp
             // Any connection or hub wire up and configuration should go here
             app.MapSignalR();
 
-            aTimer = new System.Timers.Timer(120000);
+            aTimer = new System.Timers.Timer(86400000);
             aTimer.Elapsed += new ElapsedEventHandler(RunThis);
             aTimer.AutoReset = true;
             aTimer.Enabled = true;
